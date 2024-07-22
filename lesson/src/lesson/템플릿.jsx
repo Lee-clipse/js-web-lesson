@@ -1,12 +1,15 @@
 import React from "react";
 
-const Index = () => {
+const Index0000 = () => {
   return (
     <div>
-      <div id="title"></div>
-      <div id="content"></div>
+      <div id="lesson-title">OOO - OOO</div>
+      <div id="lesson-content">
+        <div className="title">OOO</div>
+        <div>OOO</div>
+      </div>
     </div>
   );
 };
 
-export default Index;
+export default Index0000;

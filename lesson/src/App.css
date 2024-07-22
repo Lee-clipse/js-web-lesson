@@ -1,18 +1,24 @@
 body {
   background-color: #282c34;
   display: flex;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
   color: white;
 }
 
-#title {
+#lesson-title {
   padding: 2rem;
   font-weight: bold;
   width: 100vw;
-  font-size: calc(16px + 2vmin);
+  font-size: 30px;
   border-bottom: 1px solid white;
 }
 
-#content {
-  padding: 2rem;
+#lesson-content {
+  padding: 2rem 2rem 2rem 2rem;
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+  }
 }
