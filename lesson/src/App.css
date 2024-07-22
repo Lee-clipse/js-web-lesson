@@ -1,0 +1,18 @@
+body {
+  background-color: #282c34;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#title {
+  padding: 2rem;
+  font-weight: bold;
+  width: 100vw;
+  font-size: calc(16px + 2vmin);
+  border-bottom: 1px solid white;
+}
+
+#content {
+  padding: 2rem;
+}
