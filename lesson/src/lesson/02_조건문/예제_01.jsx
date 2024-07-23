@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0202 = () => {
+function Index0202() {
   const age = prompt("당신의 나이는?", "");
   let message = "";
   // TODO
@@ -19,7 +19,7 @@ const Index0202 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0202;
 

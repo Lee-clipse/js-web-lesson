@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0101 = () => {
+function Index0101() {
   const a = 3;
   const b = 10;
   const c = 1.5;
@@ -24,6 +24,6 @@ const Index0101 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0101;

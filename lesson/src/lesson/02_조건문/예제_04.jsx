@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0205 = () => {
+function Index0205() {
   const id = prompt("아이디를 입력하시오.", "");
   const pwd = prompt("비밀번호를 입력하시오.", "");
   let loginResult = false;
@@ -21,7 +21,7 @@ const Index0205 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0205;
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0303 = () => {
+function Index0303() {
   const nameList = [];
 
   return (
@@ -17,7 +17,7 @@ const Index0303 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0303;
 

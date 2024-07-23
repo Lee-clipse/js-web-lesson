@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+function Home() {
   return (
     <div>
       <div id="lesson-title">JS Lesson</div>
@@ -122,6 +122,6 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Home;

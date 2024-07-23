@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0104 = () => {
+function Index0104() {
   const fruits = ["apple", "banana", "grape"];
 
   return (
@@ -32,6 +32,6 @@ const Index0104 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0104;

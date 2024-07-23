@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0201 = () => {
+function Index0201() {
   const num = prompt("숫자를 입력하세요", "0");
   let message = "";
   if (num > 0) {
@@ -29,6 +29,6 @@ const Index0201 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0201;

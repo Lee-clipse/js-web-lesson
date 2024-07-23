@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0203 = () => {
+function Index0203() {
   const password = prompt("금고의 4자리 암호를 입력하시오.", "");
   let message = "";
   // TODO
@@ -19,7 +19,7 @@ const Index0203 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0203;
 

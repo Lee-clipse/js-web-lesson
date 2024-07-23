@@ -1,7 +1,9 @@
 import React from "react";
 
-const Index0301 = () => {
+function Index0301() {
   const fruits = ["apple", "banana", "grape"];
+  const rainbow = ["red", "orange", "yellow", "green", "blue", "purple"];
+  const week = ["월", "화", "수", "목", "금", "토", "일"];
 
   return (
     <div>
@@ -15,8 +17,21 @@ const Index0301 = () => {
 
         <div className="title">사용</div>
         <div>
+          fruits:
           {fruits.map((fruit) => {
             return fruit;
+          })}
+        </div>
+        <div>
+          rainbow:
+          {rainbow.map((color) => {
+            return color + ", ";
+          })}
+        </div>
+        <div>
+          week :
+          {week.map((day) => {
+            return day + "요일 ";
           })}
         </div>
 
@@ -30,6 +45,6 @@ const Index0301 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0301;

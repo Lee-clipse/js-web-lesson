@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0103 = () => {
+function Index0103() {
   const user = {
     name: "Kim",
     age: 20,
@@ -29,6 +29,6 @@ const Index0103 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0103;

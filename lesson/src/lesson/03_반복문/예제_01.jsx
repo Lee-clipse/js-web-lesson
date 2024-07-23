@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0302 = () => {
+function Index0302() {
   const companyList = ["FEDEX", "UPS", "EMS", "K-PACKET"];
 
   return (
@@ -16,7 +16,7 @@ const Index0302 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0302;
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0204 = () => {
+function Index0204() {
   const weight = prompt("배송을 희망하는 상자 무게를 입력하시오.", "0");
   let weightResult = false;
   // TODO
@@ -19,7 +19,7 @@ const Index0204 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0204;
 

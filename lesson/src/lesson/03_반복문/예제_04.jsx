@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0305 = () => {
+function Index0305() {
   const gradeList = [75, 80, 100, 90, 80];
   let gradeSum = 0;
 
@@ -19,7 +19,7 @@ const Index0305 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0305;
 

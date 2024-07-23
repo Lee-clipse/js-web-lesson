@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index0102 = () => {
+function Index0102() {
   const lastName = "Song";
   const firstName = "Hae";
   return (
@@ -15,6 +15,6 @@ const Index0102 = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Index0102;
