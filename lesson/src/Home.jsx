@@ -5,6 +5,25 @@ const Home = () => {
     <div>
       <div id="lesson-title">JS Lesson</div>
       <div id="lesson-content">
+        <div className="title">스스로 공부</div>
+        <div>
+          <a className="link-button" href="/test01">
+            Test_01
+          </a>
+          <a className="link-button" href="/test02">
+            Test_02
+          </a>
+          <a className="link-button" href="/test03">
+            Test_03
+          </a>
+          <a className="link-button" href="/test04">
+            Test_04
+          </a>
+          <a className="link-button" href="/test05">
+            Test_05
+          </a>
+        </div>
+
         <div className="title">01 자료형</div>
         <div>
           <div>
@@ -56,6 +75,12 @@ const Home = () => {
           <div>
             [예제 03] 상자 무게 검사
             <a className="link-button" href="/0204">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 04] 로그인
+            <a className="link-button" href="/0205">
               이동
             </a>
           </div>
