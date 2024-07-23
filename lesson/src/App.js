@@ -43,6 +43,7 @@ function App() {
         <Route path="/0202" element={<Index0202 />}></Route>
         <Route path="/0203" element={<Index0203 />}></Route>
         <Route path="/0204" element={<Index0204 />}></Route>
+        <Route path="/0205" element={<Index0205 />}></Route>
 
         <Route path="/0301" element={<Index0301 />}></Route>
         <Route path="/0302" element={<Index0302 />}></Route>
