@@ -7,20 +7,30 @@ function Home() {
       <div id="lesson-content">
         <div className="title">스스로 공부</div>
         <div>
-          <a className="link-button" href="/test01">
+          <a className="link-button" href="/test-01">
             Test_01
           </a>
-          <a className="link-button" href="/test02">
+          <a className="link-button" href="/test-02">
             Test_02
           </a>
-          <a className="link-button" href="/test03">
+          <a className="link-button" href="/test-03">
             Test_03
           </a>
-          <a className="link-button" href="/test04">
+          <a className="link-button" href="/test-04">
             Test_04
           </a>
-          <a className="link-button" href="/test05">
+          <a className="link-button" href="/test-05">
             Test_05
+          </a>
+        </div>
+
+        <div className="title">연습문제</div>
+        <div>
+          <a className="link-button" href="/practice-01">
+            문제_01
+          </a>
+          <a className="link-button" href="/practice-02">
+            문제_02
           </a>
         </div>
 

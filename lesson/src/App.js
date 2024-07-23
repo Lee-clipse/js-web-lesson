@@ -1,26 +1,32 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Index0101 from "./lesson/01_자료형/01_숫자.jsx";
-import Index0102 from "./lesson/01_자료형/02_문자.jsx";
-import Index0103 from "./lesson/01_자료형/03_객체.jsx";
-import Index0104 from "./lesson/01_자료형/04_배열.jsx";
-import Index0201 from "./lesson/02_조건문/01_문법.jsx";
-import Index0202 from "./lesson/02_조건문/예제_01.jsx";
-import Index0203 from "./lesson/02_조건문/예제_02.jsx";
-import Index0204 from "./lesson/02_조건문/예제_03.jsx";
-import Index0205 from "./lesson/02_조건문/예제_04.jsx";
-import Index0301 from "./lesson/03_반복문/01_문법.jsx";
-import Index0302 from "./lesson/03_반복문/예제_01.jsx";
-import Index0303 from "./lesson/03_반복문/예제_02.jsx";
-import Index0304 from "./lesson/03_반복문/예제_03.jsx";
-import Index0305 from "./lesson/03_반복문/예제_04.jsx";
-
 import Home from "./Home.jsx";
+
 import Test01 from "./sandbox/Test_01.jsx";
 import Test02 from "./sandbox/Test_02.jsx";
 import Test03 from "./sandbox/Test_03.jsx";
 import Test04 from "./sandbox/Test_04.jsx";
 import Test05 from "./sandbox/Test_05.jsx";
+
+import Index0001 from "./lesson/연습문제/문제_01.jsx";
+import Index0002 from "./lesson/연습문제/문제_02.jsx";
+
+import Index0101 from "./lesson/01_자료형/01_숫자.jsx";
+import Index0102 from "./lesson/01_자료형/02_문자.jsx";
+import Index0103 from "./lesson/01_자료형/03_객체.jsx";
+import Index0104 from "./lesson/01_자료형/04_배열.jsx";
+
+import Index0201 from "./lesson/02_조건문/01_문법.jsx";
+import Index0202 from "./lesson/02_조건문/예제_01.jsx";
+import Index0203 from "./lesson/02_조건문/예제_02.jsx";
+import Index0204 from "./lesson/02_조건문/예제_03.jsx";
+import Index0205 from "./lesson/02_조건문/예제_04.jsx";
+
+import Index0301 from "./lesson/03_반복문/01_문법.jsx";
+import Index0302 from "./lesson/03_반복문/예제_01.jsx";
+import Index0303 from "./lesson/03_반복문/예제_02.jsx";
+import Index0304 from "./lesson/03_반복문/예제_03.jsx";
+import Index0305 from "./lesson/03_반복문/예제_04.jsx";
 import Index0306 from "./lesson/03_반복문/예제_05.jsx";
 
 function App() {
@@ -29,11 +35,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
 
-        <Route path="/test01" element={<Test01 />}></Route>
-        <Route path="/test02" element={<Test02 />}></Route>
-        <Route path="/test03" element={<Test03 />}></Route>
-        <Route path="/test04" element={<Test04 />}></Route>
-        <Route path="/test05" element={<Test05 />}></Route>
+        <Route path="/test-01" element={<Test01 />}></Route>
+        <Route path="/test-02" element={<Test02 />}></Route>
+        <Route path="/test-03" element={<Test03 />}></Route>
+        <Route path="/test-04" element={<Test04 />}></Route>
+        <Route path="/test-05" element={<Test05 />}></Route>
+
+        <Route path="/practice-01" element={<Index0001 />}></Route>
+        <Route path="/practice-02" element={<Index0002 />}></Route>
 
         <Route path="/0101" element={<Index0101 />}></Route>
         <Route path="/0102" element={<Index0102 />}></Route>
