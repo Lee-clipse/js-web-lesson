@@ -7,9 +7,9 @@ const Index0202 = () => {
 
   return (
     <div>
-      <div id="lesson-title">조건문 - 문제 1: 나이 검사</div>
+      <div id="lesson-title">조건문 - 예제 1: 나이 검사</div>
       <div id="lesson-content">
-        <div className="title">문제</div>
+        <div className="title">예제</div>
         <div>나이 `age`를 입력 받아서 아래 조건에 맞게 `message`를 출력하시오.</div>
         <div>20살 이상이라면 "성인입니다"를 출력하고,</div>
         <div>그렇지 않다면, "성인이 아닙니다"를 출력하시오. </div>

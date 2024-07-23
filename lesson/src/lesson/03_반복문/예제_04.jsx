@@ -6,9 +6,9 @@ const Index0305 = () => {
 
   return (
     <div>
-      <div id="lesson-title">조건문 - 문제 4: 평균</div>
+      <div id="lesson-title">조건문 - 예제 4: 평균</div>
       <div id="lesson-content">
-        <div className="title">문제</div>
+        <div className="title">예제</div>
         <div>`gradeList`의 각 점수의 평균을 구하시오.</div>
         <div>- 힌트: 반복문을 사용하여, 각 점수를 합한 후 `배열의 길이`로 나누면 평균</div>
 

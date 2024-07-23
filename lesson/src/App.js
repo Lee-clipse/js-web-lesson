@@ -5,19 +5,23 @@ import Index0102 from "./lesson/01_자료형/02_문자.jsx";
 import Index0103 from "./lesson/01_자료형/03_객체.jsx";
 import Index0104 from "./lesson/01_자료형/04_배열.jsx";
 import Index0201 from "./lesson/02_조건문/01_문법.jsx";
-import Index0202 from "./lesson/02_조건문/02_예제1.jsx";
-import Index0203 from "./lesson/02_조건문/03_예제2.jsx";
-import Index0204 from "./lesson/02_조건문/04_예제3.jsx";
+import Index0202 from "./lesson/02_조건문/예제_01.jsx";
+import Index0203 from "./lesson/02_조건문/예제_02.jsx";
+import Index0204 from "./lesson/02_조건문/예제_03.jsx";
 import Index0301 from "./lesson/03_반복문/01_문법.jsx";
-import Index0302 from "./lesson/03_반복문/02_예제1.jsx";
-import Index0303 from "./lesson/03_반복문/03_예제2.jsx";
-import Index0304 from "./lesson/03_반복문/04_예제3.jsx";
-import Index0305 from "./lesson/03_반복문/05_예제4.jsx";
+import Index0302 from "./lesson/03_반복문/예제_01.jsx";
+import Index0303 from "./lesson/03_반복문/예제_02.jsx";
+import Index0304 from "./lesson/03_반복문/예제_03.jsx";
+import Index0305 from "./lesson/03_반복문/예제_04.jsx";
+
+import Home from "./Home.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Home />}></Route>
+
         <Route path="/0101" element={<Index0101 />}></Route>
         <Route path="/0102" element={<Index0102 />}></Route>
         <Route path="/0103" element={<Index0103 />}></Route>

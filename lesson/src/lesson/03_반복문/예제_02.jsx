@@ -5,9 +5,9 @@ const Index0303 = () => {
 
   return (
     <div>
-      <div id="lesson-title">조건문 - 문제 2: 인사</div>
+      <div id="lesson-title">조건문 - 예제 2: 인사</div>
       <div id="lesson-content">
-        <div className="title">문제</div>
+        <div className="title">예제</div>
         <div>"Kim", "Han", "Song" 에게 "Hello, 이름" 이라고 인사하도록</div>
         <div>배열을 생성하고, 반복문을 사용해 코드를 작성하시오.</div>
 
