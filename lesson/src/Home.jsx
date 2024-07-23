@@ -118,6 +118,12 @@ function Home() {
               이동
             </a>
           </div>
+          <div>
+            [예제 05] 자기소개
+            <a className="link-button" href="/0306">
+              이동
+            </a>
+          </div>
         </div>
       </div>
     </div>

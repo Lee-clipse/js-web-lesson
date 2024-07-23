@@ -21,6 +21,7 @@ import Test02 from "./sandbox/Test_02.jsx";
 import Test03 from "./sandbox/Test_03.jsx";
 import Test04 from "./sandbox/Test_04.jsx";
 import Test05 from "./sandbox/Test_05.jsx";
+import Index0306 from "./lesson/03_반복문/예제_05.jsx";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/0303" element={<Index0303 />}></Route>
         <Route path="/0304" element={<Index0304 />}></Route>
         <Route path="/0305" element={<Index0305 />}></Route>
+        <Route path="/0306" element={<Index0306 />}></Route>
       </Routes>
     </BrowserRouter>
   );
