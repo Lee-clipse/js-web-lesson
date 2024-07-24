@@ -5,6 +5,8 @@ cafeList.map((cafe) => {
   }
 });
 
+---
+
 02
 database.map((user) => {
   if (user.id === id && user.pwd === pwd) {
@@ -16,6 +18,8 @@ database.map((user) => {
   }
 });
 
+---
+
 03
 function findVip() {
   database.map((user) => {
@@ -26,7 +30,25 @@ function findVip() {
 }
 onClick={() => findVip()}
 
+---
+
 04
+function findVip() {
+  database.map((user) => {
+    let amountSum = 0;
+    user.amountLog.map((amount) => {
+      amountSum += amount;
+    });
+    if (amountSum >= 500) {
+      console.log(user.name);
+    }
+  });
+}
+onClick={() => findVip()}
+
+---
+
+05
 function findVip() {
   database.map((user) => {
     let amountSum = sumAmountLog(user.amountLog);

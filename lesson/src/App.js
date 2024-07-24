@@ -40,6 +40,19 @@ import Index0405 from "./lesson/04_함수/예제_03.jsx";
 import Index0406 from "./lesson/04_함수/예제_04.jsx";
 import Index0407 from "./lesson/04_함수/예제_05.jsx";
 
+import Index0501 from "./lesson/05_메서드/01_정렬/01_정렬.jsx";
+import Index0502 from "./lesson/05_메서드/01_정렬/예제_01.jsx";
+import Index0503 from "./lesson/05_메서드/01_정렬/예제_02.jsx";
+import Index0504 from "./lesson/05_메서드/02_필터링/02_필터링";
+import Index0505 from "./lesson/05_메서드/02_필터링/예제_03.jsx";
+import Index0506 from "./lesson/05_메서드/02_필터링/예제_04.jsx";
+import Index0507 from "./lesson/05_메서드/03_날짜/03_날짜";
+import Index0508 from "./lesson/05_메서드/03_날짜/예제_05.jsx";
+import Index0509 from "./lesson/05_메서드/03_날짜/예제_06.jsx";
+import Index0510 from "./lesson/05_메서드/04_정규식/04_정규식";
+import Index0511 from "./lesson/05_메서드/04_정규식/예제_07.jsx";
+import Index0512 from "./lesson/05_메서드/04_정규식/예제_08.jsx";
+
 function App() {
   return (
     <BrowserRouter>
@@ -83,6 +96,19 @@ function App() {
         <Route path="/0405" element={<Index0405 />}></Route>
         <Route path="/0406" element={<Index0406 />}></Route>
         <Route path="/0407" element={<Index0407 />}></Route>
+
+        <Route path="/0501" element={<Index0501 />}></Route>
+        <Route path="/0502" element={<Index0502 />}></Route>
+        <Route path="/0503" element={<Index0503 />}></Route>
+        <Route path="/0504" element={<Index0504 />}></Route>
+        <Route path="/0505" element={<Index0505 />}></Route>
+        <Route path="/0506" element={<Index0506 />}></Route>
+        <Route path="/0507" element={<Index0507 />}></Route>
+        <Route path="/0508" element={<Index0508 />}></Route>
+        <Route path="/0509" element={<Index0509 />}></Route>
+        <Route path="/0510" element={<Index0510 />}></Route>
+        <Route path="/0511" element={<Index0511 />}></Route>
+        <Route path="/0512" element={<Index0512 />}></Route>
       </Routes>
     </BrowserRouter>
   );

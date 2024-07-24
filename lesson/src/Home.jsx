@@ -190,6 +190,85 @@ function Home() {
             </a>
           </div>
         </div>
+
+        <div className="title">05 메서드</div>
+        <div>
+          <div>
+            [01 정렬]
+            <a className="link-button" href="/0501">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 01]
+            <a className="link-button" href="/0502">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 02]
+            <a className="link-button" href="/0503">
+              이동
+            </a>
+          </div>
+
+          <div>
+            [02 필터링]
+            <a className="link-button" href="/0504">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 03]
+            <a className="link-button" href="/0505">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 04]
+            <a className="link-button" href="/0506">
+              이동
+            </a>
+          </div>
+
+          <div>
+            [03 날짜]
+            <a className="link-button" href="/0507">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 05]
+            <a className="link-button" href="/0508">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 06]
+            <a className="link-button" href="/0509">
+              이동
+            </a>
+          </div>
+
+          <div>
+            [04 정규식]
+            <a className="link-button" href="/0510">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 07]
+            <a className="link-button" href="/0511">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 08]
+            <a className="link-button" href="/0512">
+              이동
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
