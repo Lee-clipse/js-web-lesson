@@ -29,6 +29,14 @@ import Index0304 from "./lesson/03_반복문/예제_03.jsx";
 import Index0305 from "./lesson/03_반복문/예제_04.jsx";
 import Index0306 from "./lesson/03_반복문/예제_05.jsx";
 
+import Index0401 from "./lesson/04_함수/01_문법.jsx";
+import Index0402 from "./lesson/04_함수/02_이벤트_문법.jsx";
+import Index0403 from "./lesson/04_함수/예제_01.jsx";
+import Index0404 from "./lesson/04_함수/예제_02.jsx";
+import Index0405 from "./lesson/04_함수/예제_03.jsx";
+import Index0406 from "./lesson/04_함수/예제_04.jsx";
+import Index0407 from "./lesson/04_함수/예제_05.jsx";
+
 function App() {
   return (
     <BrowserRouter>
@@ -61,6 +69,14 @@ function App() {
         <Route path="/0304" element={<Index0304 />}></Route>
         <Route path="/0305" element={<Index0305 />}></Route>
         <Route path="/0306" element={<Index0306 />}></Route>
+
+        <Route path="/0401" element={<Index0401 />}></Route>
+        <Route path="/0402" element={<Index0402 />}></Route>
+        <Route path="/0403" element={<Index0403 />}></Route>
+        <Route path="/0404" element={<Index0404 />}></Route>
+        <Route path="/0405" element={<Index0405 />}></Route>
+        <Route path="/0406" element={<Index0406 />}></Route>
+        <Route path="/0407" element={<Index0407 />}></Route>
       </Routes>
     </BrowserRouter>
   );

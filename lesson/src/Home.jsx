@@ -135,6 +135,52 @@ function Home() {
             </a>
           </div>
         </div>
+
+        <div className="title">04 함수</div>
+        <div>
+          <div>
+            [01 문법]
+            <a className="link-button" href="/0401">
+              이동
+            </a>
+          </div>
+          <div>
+            [02 이벤트 문법]
+            <a className="link-button" href="/0402">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 01] 자동 인사
+            <a className="link-button" href="/0403">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 02] 수동 인사
+            <a className="link-button" href="/0404">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 03] 친구에게 인사
+            <a className="link-button" href="/0405">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 04] 나이 검사
+            <a className="link-button" href="/0406">
+              이동
+            </a>
+          </div>
+          <div>
+            [예제 05]
+            <a className="link-button" href="/0407">
+              이동
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
