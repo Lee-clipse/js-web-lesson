@@ -5,7 +5,7 @@ function Index0403() {
 
   return (
     <div>
-      <div id="lesson-title">함수 - 예제 1: 자동 인사</div>
+      <div id="lesson-title">함수 - 예제 1: 인사</div>
       <div id="lesson-content">
         <div className="title">예제</div>
         <div>"Hello"라는 문자열을 반환하는 `sayHello`라는 이름의 함수를 구현하시오.</div>

@@ -1,20 +1,23 @@
 import React from "react";
 
 function Index0404() {
-  // hint: alert("Hello"); << Hello라는 문자열을 웹 브라우저에 띄우는 기능
-  // TODO
+  function congratulation() {
+    alert("축하합니다!");
+  }
 
   return (
     <div>
-      <div id="lesson-title">함수 - 예제 2: 수동 인사</div>
+      <div id="lesson-title">함수 - 예제 2: 축하받기</div>
       <div id="lesson-content">
         <div className="title">예제</div>
-        <div>`인사하기` 버튼을 누르면 "Hello"라고 인사하도록 함수를 작성하시오.</div>
+        <div>
+          `축하받기` 버튼을 누르면 `congratulation()` 함수를 실행하도록 이벤트를 작성하시오.
+        </div>
 
         <div className="title">답</div>
         {/* TODO */}
         <div className="link-button" onClick={() => {}}>
-          인사하기
+          축하받기
         </div>
       </div>
     </div>

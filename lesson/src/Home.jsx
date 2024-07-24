@@ -151,31 +151,31 @@ function Home() {
             </a>
           </div>
           <div>
-            [예제 01] 자동 인사
+            [예제 01] 인사
             <a className="link-button" href="/0403">
               이동
             </a>
           </div>
           <div>
-            [예제 02] 수동 인사
+            [예제 02] 축하받기
             <a className="link-button" href="/0404">
               이동
             </a>
           </div>
           <div>
-            [예제 03] 친구에게 인사
+            [예제 03] 인사 이벤트
             <a className="link-button" href="/0405">
               이동
             </a>
           </div>
           <div>
-            [예제 04] 나이 검사
+            [예제 04] 친구에게 인사 이벤트
             <a className="link-button" href="/0406">
               이동
             </a>
           </div>
           <div>
-            [예제 05]
+            [예제 05] 나이 검사
             <a className="link-button" href="/0407">
               이동
             </a>

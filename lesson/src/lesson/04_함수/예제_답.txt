@@ -4,11 +4,14 @@ function sayHello() {
 }
 
 02
+congratulation();
+
+03
 function sayHello() {
   alert("Hello");
 }
 
-03
+04
 function sayHello(name) {
   alert("Hello, " + name);
 }
@@ -19,7 +22,7 @@ onClick={() => {
   sayHello("Han");
 }}
 
-04
+05
 function checkAge() {
   const age = prompt("당신의 나이는?", "");
   if (age >= 20) {

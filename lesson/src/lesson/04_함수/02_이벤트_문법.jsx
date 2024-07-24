@@ -14,21 +14,20 @@ function Index0402() {
     <div>
       <div id="lesson-title">함수 - 이벤트 문법</div>
       <div id="lesson-content">
-        <div>유사한 동작을 하는 코드가 여러 곳에서 필요한 경우 사용</div>
-        <div>덕분에 중복 없이 유사한 동작을 하는 코드를 여러번 호출 가능</div>
-        <div>
-          ex: 상품의 무게와 고객의 나라, postal code를 입력 받아서 배송 운임료를 계산하는 함수
-        </div>
+        <div className="title">이벤트</div>
+        <div>웹 페이지에서 사용자가 특정 동작을 수행했을 때,</div>
+        <div>특정 JavaScript 코드를 실행하는 것</div>
+        <a href="https://half-straw-a69.notion.site/07-656db73e3db44707a9436d24570f97bb?pvs=4">
+          이론 자료
+        </a>
 
-        <div className="title">onClick 이벤트</div>
-        <div>클릭하면 onClick 이벤트로 지정한 함수를 실행</div>
+        <div className="title">1. onClick 이벤트</div>
+        <div>정의: 사용자가 클릭하면 이벤트를 발동</div>
         <div onClick={() => alertHello()} className="link-button">
           인사하기
         </div>
-        <div>- 응용 1: `결제하기` 버튼 클릭시 결제 함수 실행</div>
-        <div>- 응용 2: `로그인` 버튼 클릭시 입력한 id, pwd 바탕으로 로그인 함수 실행</div>
 
-        <div className="title">onChange 이벤트</div>
+        <div className="title">2. onChange 이벤트</div>
         <div>
           input 태그 대상으로, 사용자의 키보드 입력에 따라 onChange 이벤트로 지정한 함수를 실행
         </div>
@@ -38,7 +37,6 @@ function Index0402() {
           placeholder="아무거나 입력"
           onChange={(event) => alertInputText(event)}
         />
-        <div>- 응용 1: 사용자 입력 값을 변수에 저장</div>
       </div>
     </div>
   );
