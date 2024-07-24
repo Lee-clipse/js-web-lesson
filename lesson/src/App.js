@@ -10,6 +10,9 @@ import Test05 from "./sandbox/Test_05.jsx";
 
 import Index0001 from "./lesson/연습문제/문제_01.jsx";
 import Index0002 from "./lesson/연습문제/문제_02.jsx";
+import Index0003 from "./lesson/연습문제/문제_03.jsx";
+import Index0004 from "./lesson/연습문제/문제_04.jsx";
+import Index0005 from "./lesson/연습문제/문제_05.jsx";
 
 import Index0101 from "./lesson/01_자료형/01_숫자.jsx";
 import Index0102 from "./lesson/01_자료형/02_문자.jsx";
@@ -51,6 +54,9 @@ function App() {
 
         <Route path="/practice-01" element={<Index0001 />}></Route>
         <Route path="/practice-02" element={<Index0002 />}></Route>
+        <Route path="/practice-03" element={<Index0003 />}></Route>
+        <Route path="/practice-04" element={<Index0004 />}></Route>
+        <Route path="/practice-05" element={<Index0005 />}></Route>
 
         <Route path="/0101" element={<Index0101 />}></Route>
         <Route path="/0102" element={<Index0102 />}></Route>

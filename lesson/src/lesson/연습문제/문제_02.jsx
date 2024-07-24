@@ -15,7 +15,7 @@ function Index0002() {
 
   return (
     <div>
-      <div id="lesson-title">문제 2: 데이터베이스</div>
+      <div id="lesson-title">문제 2: 로그인</div>
       <div id="lesson-content">
         <div className="title">문제</div>
         <div>`id`, `pwd`를 입력 받아서 해당 사용자를 환영하는 `message`를 작성하시오.</div>
@@ -34,15 +34,3 @@ function Index0002() {
 }
 
 export default Index0002;
-
-/*
-  database.map((user) => {
-    if (user.id === id && user.pwd === pwd) {
-      message = (
-        <div>
-          안녕하세요, {user.age}세 {user.name}님!
-        </div>
-      );
-    }
-  });
-*/

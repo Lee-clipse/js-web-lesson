@@ -25,11 +25,3 @@ function Index0001() {
 }
 
 export default Index0001;
-
-/*
-  cafeList.map((cafe) => {
-    if (cafeInput === cafe) {
-      searchResult = true;
-    }
-  });
-*/

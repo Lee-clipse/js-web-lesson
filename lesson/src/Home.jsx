@@ -32,6 +32,15 @@ function Home() {
           <a className="link-button" href="/practice-02">
             문제_02
           </a>
+          <a className="link-button" href="/practice-03">
+            문제_03
+          </a>
+          <a className="link-button" href="/practice-04">
+            문제_04
+          </a>
+          <a className="link-button" href="/practice-05">
+            문제_05
+          </a>
         </div>
 
         <div className="title">01 자료형</div>
