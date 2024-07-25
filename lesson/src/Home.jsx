@@ -200,13 +200,13 @@ function Home() {
             </a>
           </div>
           <div>
-            [예제 01]
+            [예제 01] 행복은 성적순
             <a className="link-button" href="/0502">
               이동
             </a>
           </div>
           <div>
-            [예제 02]
+            [예제 02] VIP 리스트업
             <a className="link-button" href="/0503">
               이동
             </a>
@@ -219,13 +219,13 @@ function Home() {
             </a>
           </div>
           <div>
-            [예제 03]
+            [예제 03] map을 filter로
             <a className="link-button" href="/0505">
               이동
             </a>
           </div>
           <div>
-            [예제 04]
+            [예제 04] VIP 선정
             <a className="link-button" href="/0506">
               이동
             </a>
